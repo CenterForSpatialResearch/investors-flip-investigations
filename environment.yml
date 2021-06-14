@@ -1,6 +1,7 @@
 name: geo-2021
 channels:
   - conda-forge
+
 dependencies:
   - python=3.6   
   - geopandas
@@ -11,6 +12,8 @@ dependencies:
   - pysal
   - jupyter
   - mapclassify
+  - contextily
+  - ipyleaflet
   - pip:
     - census
     - us
